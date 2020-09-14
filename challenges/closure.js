@@ -16,7 +16,7 @@ function myFunction() {
 myFunction();
 
 // Explanation:
-// functions are like one way streets, they can pull informtaion that is defined from objects out side of them selves, but you cannot pull information from objects that are defined by the function from out side of the function.
+// Functions are like one way streets, they can pull informtaion that is defined from objects out side of them selves, but you cannot pull information from objects that are defined by the function from out side of the function.
 
 /* Task 2: Counter */
 
@@ -33,7 +33,8 @@ myFunction();
 function summation(number){
   let count = 0
   for(let i = 0; i <= number; i++){
-  count +=1
+  count += i
   }
-  return number + count 
+  return count 
 }
+console.log (summation(4))
